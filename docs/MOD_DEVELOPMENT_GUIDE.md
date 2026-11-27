@@ -1,4 +1,4 @@
-# Aether Nebula Mod 插件开发手册（Schema v1 · 适用于 v1.3.0）
+# Aether Nebula Mod 插件开发手册（Schema v1 · 适用于 v1.3.1）
 
 本手册面向希望为 **Aether Nebula** 开发功能扩展（Mod）的开发者。
 
@@ -41,7 +41,7 @@ mods/
     ├── helper.py           # 可选：其他子模块（支持 from .helper import ...）
     ├── panel.html          # 可选：前端弹窗 HTML 片段
     ├── panel.js            # 可选：前端交互脚本
-    └── panel.css           # 可选：前端样式表（建议使用 v1.3.0 主题 CSS 变量）
+    └── panel.css           # 可选：前端样式表（建议使用 v1.3.1 主题 CSS 变量）
 ```
 
 ### 2.3 模块隔离与容错
@@ -182,7 +182,7 @@ def create_mod(context: Any) -> MyMod:
 | `ctx.mod_dir` | 无 | 当前 Mod 安装目录 `Path`（只读） |
 | `ctx.manifest` | 无 | 解析后的 `mod.json` 字典副本 |
 | `ctx.permissions` | 无 | 已声明权限的 `frozenset[str]` |
-| `ctx.app_version` | 无 | Nebula 主程序版本号（如 `"1.3.0"`） |
+| `ctx.app_version` | 无 | Nebula 主程序版本号（如 `"1.3.1"`） |
 | `ctx.host_os` | 无 | 当前宿主机系统：`"windows"` / `"macos"` / `"linux"` |
 | `ctx.is_vault_mounted()` | 无 | 当前工作区是否已挂载 |
 | `ctx.get_data_dir()` | `vault_storage` | 返回并自动创建 `{vault_root}/mods/{mod_id}/` |
@@ -229,8 +229,8 @@ def create_mod(context: Any) -> MyMod:
 | `bridge.quickEditProfileMeta(profileId)` | 直接在当前 Mod 弹窗上方呼出「快捷修改环境名称与备注」面板，修改后自动同步主列表与所有已挂载 Mod |
 | `bridge.close()` | 关闭当前 Mod 弹窗 |
 
-### 5.3 v1.3.0 主题 CSS Design Tokens（自动适配浅/深色与双强调色）
-从 **v1.3.0** 起__KEEP__，Aether Nebula 采用 **Claude Warm Alabaster（浅色默认）+ Warm Obsidian（暖黑曜石深色）+ Apple macOS Sequoia** 设计系统，并支持 **Claude 陶土暖橙 / Apple 晴空蓝** 一键切换。
+### 5.3 v1.3.1 主题 CSS Design Tokens（自动适配浅/深色与双强调色）
+从 **v1.3.1** 起__KEEP__，Aether Nebula 采用 **Claude Warm Alabaster（浅色默认）+ Warm Obsidian（暖黑曜石深色）+ Apple macOS Sequoia** 设计系统，并支持 **Claude 陶土暖橙 / Apple 晴空蓝** 一键切换。
 
 Mod 的 `panel.css` 应**全部使用以下 CSS 变量**（切勿写死 `#0f172a` 等暗蓝硬编码），即可自动跟随主界面切换：
 
@@ -267,7 +267,7 @@ Mod 的 `panel.css` 应**全部使用以下 CSS 变量**（切勿写死 `#0f172a
   "name": "Hello 示例",
   "version": "0.1.0",
   "author": "Dev",
-  "description": "最小可运行的 Nebula v1.3.0 Mod 示例。",
+  "description": "最小可运行的 Nebula v1.3.1 Mod 示例。",
   "platforms": ["windows", "macos", "linux"],
   "backend": "backend.py",
   "ui": {
@@ -375,7 +375,7 @@ def create_mod(context: Any) -> HelloMod:
 - `store.py`：写入工作区的独立 WAL SQLite 账号库及在线快照备份；
 - `cdp_injector.py`：纯标准库 loopback WebSocket CDP 客户端；
 - `backend.py`：`create_mod` 入口、经代理在线验活、CDP 注入与「纯净模式重开」编排；
-- `panel.html` / `panel.js` / `panel.css`：适配 v1.3.0 Warm Alabaster / Warm Obsidian 双主题的前端面板。
+- `panel.html` / `panel.js` / `panel.css`：适配 v1.3.1 Warm Alabaster / Warm Obsidian 双主题的前端面板。
 
 ---
 

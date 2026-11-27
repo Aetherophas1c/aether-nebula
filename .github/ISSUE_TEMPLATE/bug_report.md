@@ -11,7 +11,7 @@ assignees: []
 > **Privacy Reminder**: Never paste real proxy links (`vless://`, `trojan://`, `ss://`), UUIDs, API keys, AI session tokens, or `vault.db` files here.
 
 ## Environment
-- **Aether Nebula Version**: (e.g. `v1.3.0`)
+- **Aether Nebula Version**: (e.g. `v1.3.1`)
 - **Host OS & Architecture**: (e.g. `Windows 11 x64` / `macOS 15 arm64` / `Ubuntu 24.04 x64`)
 - **Distribution Type**: (e.g. `Installer (.exe / .dmg)` / `Portable` / `From Source`)
 - **Chromium Kernel Version**: (e.g. `158.0.8127.36`)
