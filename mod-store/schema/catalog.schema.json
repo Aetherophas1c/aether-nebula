@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Aetherophas1c/aether-nebula/blob/main/mod-store/schema/catalog.schema.json",
+  "title": "Aether Nebula Mod Store Catalog",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schema_version",
+    "store_name",
+    "updated_at",
+    "min_client_version",
+    "mods"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "store_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "updated_at": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "min_client_version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+(?:[-+.][0-9A-Za-z.-]+)?$"
+    },
+    "repository": {
+      "type": "string",
+      "pattern": "^https://"
+    },
+    "featured_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9_-]{0,31}$"
+      },
+      "uniqueItems": true
+    },
+    "mods": {
+      "type": "array",
+      "items": {
+        "$ref": "./submission.schema.json"
+      }
+    }
+  }
+}

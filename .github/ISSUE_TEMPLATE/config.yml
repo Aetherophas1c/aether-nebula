@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security Vulnerability Disclosure
+    url: https://github.com/Aetherophas1c/aether-nebula/security/advisories/new
+    about: Privately report security vulnerabilities, IP/DNS leaks, or Vault isolation issues (do not open a public issue).
+  - name: Mod SDK & Local API Documentation
+    url: https://github.com/Aetherophas1c/aether-nebula/tree/main/docs
+    about: Read the Mod Development Guide, Local HTTP API Guide, and HPC Build Matrix before opening an issue.
+  - name: Community Discussions & Q&A
+    url: https://github.com/Aetherophas1c/aether-nebula/discussions
+    about: Ask usage questions, share fingerprint testing tips, or brainstorm Mod ideas.

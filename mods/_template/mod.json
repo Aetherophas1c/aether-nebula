@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "my_mod",
+  "name": "示例扩展（Starter Template）",
+  "version": "0.1.0",
+  "author": "Your Name",
+  "description": "Aether Nebula 官方 Mod 开发模板：演示加密盘隔离存储、自定义环境主表列、单行快捷按钮、工具栏动作与 Warm Alabaster/Obsidian 主题适配。",
+  "platforms": ["windows", "macos", "linux"],
+  "min_nebula_version": "1.3.0",
+  "backend": "backend.py",
+  "ui": {
+    "entry": "panel.html",
+    "script": "panel.js",
+    "style": "panel.css",
+    "mount_points": ["topbar", "profile_row", "toolbar", "inline_panel"],
+    "topbar_label": "示例扩展",
+    "profile_row_label": "示例",
+    "modal_size": "lg",
+    "inline_panel": true,
+    "inline_panel_title": "示例扩展快捷工作台",
+    "profile_table_columns": [
+      {
+        "id": "mod_tag",
+        "label": "扩展标签",
+        "width": "156px",
+        "default_visible": true
+      }
+    ],
+    "profile_row_actions": [
+      {
+        "id": "quick_stamp",
+        "label": "打卡",
+        "action": "quick_stamp_profile",
+        "style": "sky",
+        "title": "为当前指纹环境记录一次加密盘打卡时间",
+        "refresh_columns": true
+      }
+    ],
+    "toolbar_actions": [
+      {
+        "id": "batch_summary",
+        "label": "刷新扩展标签",
+        "action": "batch_refresh_tags",
+        "style": "default",
+        "title": "统计并校验所有已保存的环境扩展标签",
+        "refresh_columns": true
+      }
+    ]
+  },
+  "permissions": [
+    "vault_storage",
+    "profiles_read"
+  ]
+}

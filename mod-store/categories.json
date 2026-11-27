@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "categories": [
+    {
+      "id": "account-automation",
+      "name": "账号与登录自动化",
+      "name_en": "Account & Login",
+      "description": "多平台账号库、Token 验活与指纹环境一键 Cookie 注入上号。",
+      "order": 10
+    },
+    {
+      "id": "quota-billing",
+      "name": "额度与资产监控",
+      "name_en": "Quota & Usage",
+      "description": "周期额度查询、重置卡管理、余额与到期提醒等外置状态列插件。",
+      "order": 20
+    },
+    {
+      "id": "proxy-network",
+      "name": "代理与网络工具",
+      "name_en": "Proxy & Network",
+      "description": "IP 纯净度检测、出口归属验证、住宅代理对接与测速增强。",
+      "order": 30
+    },
+    {
+      "id": "workspace-ui",
+      "name": "工作台与效率增强",
+      "name_en": "Workspace & Productivity",
+      "description": "环境批量标签、自定义表格列、团队协作备注与快捷工作流。",
+      "order": 40
+    },
+    {
+      "id": "automation-cdp",
+      "name": "CDP 与 RPA 脚本",
+      "name_en": "CDP & Automation",
+      "description": "基于浏览器 CDP 协议的自动化任务编排、采集与表单辅助。",
+      "order": 50
+    },
+    {
+      "id": "security-audit",
+      "name": "指纹检测与安全审计",
+      "name_en": "Fingerprint & Security",
+      "description": "环境防关联自检、泄露审计与合规导出插件。",
+      "order": 60
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+name: Validate Mod Store & Template
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Mod Store Schema, Offline Hygiene & Template Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate Mod Store Catalog, Submissions, Registry & Starter Template
+        run: |
+          python3 scripts/package_mods.py \
+            --mods-dir mods \
+            --validate-registry registry/mods.json \
+            --validate-store mod-store/catalog.json \
+            --validate-submissions mod-store/submissions \
+            --validate-template \
+            --validate-only
+          python3 - <<'PYEOF'
+          from pathlib import Path
+          import re, subprocess, sys
+
+          tracked = subprocess.check_output(["git", "ls-files"], text=True).splitlines()
+          forbidden_suffixes = (".exe", ".dmg", ".dll", ".dylib", ".so", ".db", ".sqlite", ".sqlite3", ".key", ".pem", ".zip", ".tar.gz")
+          violations = []
+          for rel in tracked:
+              low = rel.lower()
+              if low.endswith(forbidden_suffixes):
+                  violations.append(f"Forbidden binary/archive tracked in git: {rel}")
+              if rel.startswith(("PrivateBrowserManager/", "chromium-patches/", "hpc/", "installer/")):
+                  violations.append(f"Internal source path must not exist in public release repo: {rel}")
+
+          url_re = re.compile(r"https?://", re.IGNORECASE)
+          for asset in sorted(Path("mods").glob("*/*.html")) + sorted(Path("mods").glob("*/*.css")):
+              if url_re.search(asset.read_text(encoding="utf-8")):
+                  violations.append(f"External URL forbidden in Mod UI asset: {asset}")
+
+          if violations:
+              for v in violations:
+                  print(f"[FAIL] {v}", file=sys.stderr)
+              sys.exit(1)
+          print(f"[OK] Public distribution & Mod Store repo clean ({len(tracked)} tracked files, 0 source leaks, 0 binaries).")
+          PYEOF

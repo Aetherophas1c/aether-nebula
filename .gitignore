@@ -1,0 +1,11 @@
+mod-store/packages/*.zip
+mod-store/packages/SHA256SUMS.txt
+dist/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+._*
+*.db
+*.sqlite*
+*.log
