@@ -1,4 +1,4 @@
-# Aether Nebula Local HTTP API 使用手册（v1.3.2）
+# Aether Nebula Local HTTP API 使用手册（v1.3.3）
 
 本文档说明如何通过 **Aether Nebula 内置的本地自动化 HTTP API**，使用 **Playwright / Puppeteer / Selenium / Python / curl** 编排环境生命周期、查询节点与测速同步时区，并获取受控 Fingerprint-Chromium `158.0.8127.36` 的 CDP 调试端点。
 

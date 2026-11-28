@@ -54,7 +54,7 @@
       "download_url": "https://github.com/Aetherophas1c/aether-nebula/releases/latest/download/nebula-mod-ai_login-v1.1.0.zip",
       "sha256": "d67acfdca9a4c9a1be50db97e56c1eef25bfef76727bffe8b275ae59296bb6ef",
       "size_bytes": 31551,
-      "homepage": "https://github.com/Aetherophas1c/aether-nebula/releases/tag/v1.3.2",
+      "homepage": "https://github.com/Aetherophas1c/aether-nebula/releases/tag/v1.3.3",
       "source_url": "https://github.com/Aetherophas1c/aether-nebula/tree/main/mod-store",
       "screenshots": [],
       "changelog": "v1.1.0: 新增主界面外置 AI 账号状态列、环境行快捷验活/一键上号按钮、工具栏批量验活与可折叠内联工作台；透出环境备注字段并支持一键快捷编辑。"
