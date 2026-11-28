@@ -6,26 +6,26 @@
 
 ---
 
-## 最新版本下载：`v1.3.3`
+## 最新版本下载：`v1.3.5`
 
-前往 **[v1.3.3 Release 页面](https://github.com/Aetherophas1c/aether-nebula/releases/tag/v1.3.3)** 或直接点击下方链接下载（内置硬核定制 `Fingerprint-Chromium 158.0.8127.36`、三端离线字体包及 `Xray` / `Mihomo` 双代理核心，开箱即用）：
+前往 **[v1.3.5 Release 页面](https://github.com/Aetherophas1c/aether-nebula/releases/tag/v1.3.5)** 或直接点击下方链接下载（内置硬核定制 `Fingerprint-Chromium 158.0.8127.36`、三端离线字体包及 `Xray` / `Mihomo` 双代理核心，开箱即用）：
 
 | 操作系统与架构 | 安装包 / 便携版下载直链 | 大小 |
 | :--- | :--- | ---: |
-| **Windows x64（安装版，推荐）** | [Aether-Nebula-Setup-1.3.3-x64.exe](https://github.com/Aetherophas1c/aether-nebula/releases/download/v1.3.3/Aether-Nebula-Setup-1.3.3-x64.exe) | 226 MB |
-| **Windows x64（免安装便携版）** | [Aether-Nebula-v1.3.3-win-x64-portable.zip](https://github.com/Aetherophas1c/aether-nebula/releases/download/v1.3.3/Aether-Nebula-v1.3.3-win-x64-portable.zip) | 298 MB |
-| **Windows ARM64（安装版）** | [Aether-Nebula-Setup-1.3.3-arm64.exe](https://github.com/Aetherophas1c/aether-nebula/releases/download/v1.3.3/Aether-Nebula-Setup-1.3.3-arm64.exe) | 210 MB |
-| **Windows ARM64（便携版）** | [Aether-Nebula-v1.3.3-win-arm64-portable.zip](https://github.com/Aetherophas1c/aether-nebula/releases/download/v1.3.3/Aether-Nebula-v1.3.3-win-arm64-portable.zip) | 283 MB |
-| **macOS Apple Silicon (M1/M2/M3/M4)** | [Aether-Nebula-v1.3.3-macos-arm64.dmg](https://github.com/Aetherophas1c/aether-nebula/releases/download/v1.3.3/Aether-Nebula-v1.3.3-macos-arm64.dmg) | 274 MB |
-| **macOS Intel (`x86_64`)** | [Aether-Nebula-v1.3.3-macos-x86_64.dmg](https://github.com/Aetherophas1c/aether-nebula/releases/download/v1.3.3/Aether-Nebula-v1.3.3-macos-x86_64.dmg) | 293 MB |
-| **Linux x64（便携版）** | [Aether-Nebula-v1.3.3-linux-x64.tar.gz](https://github.com/Aetherophas1c/aether-nebula/releases/download/v1.3.3/Aether-Nebula-v1.3.3-linux-x64.tar.gz) | 386 MB |
-| **Linux ARM64（便携版）** | [Aether-Nebula-v1.3.3-linux-arm64.tar.gz](https://github.com/Aetherophas1c/aether-nebula/releases/download/v1.3.3/Aether-Nebula-v1.3.3-linux-arm64.tar.gz) | 440 MB |
-| **官方 Mod 归档 (`ai_login` v1.1.0)** | [nebula-mod-ai_login-v1.1.0.zip](https://github.com/Aetherophas1c/aether-nebula/releases/download/v1.3.3/nebula-mod-ai_login-v1.1.0.zip) | 31 KB |
-| **SHA-256 校验清单** | [SHA256SUMS.txt](https://github.com/Aetherophas1c/aether-nebula/releases/download/v1.3.3/SHA256SUMS.txt) | 934 B |
+| **Windows x64（安装版，推荐）** | [Aether-Nebula-Setup-1.3.5-x64.exe](https://github.com/Aetherophas1c/aether-nebula/releases/download/v1.3.5/Aether-Nebula-Setup-1.3.5-x64.exe) | 225 MB |
+| **Windows x64（免安装便携版）** | [Aether-Nebula-v1.3.5-win-x64-portable.zip](https://github.com/Aetherophas1c/aether-nebula/releases/download/v1.3.5/Aether-Nebula-v1.3.5-win-x64-portable.zip) | 295 MB |
+| **Windows ARM64（安装版）** | [Aether-Nebula-Setup-1.3.5-arm64.exe](https://github.com/Aetherophas1c/aether-nebula/releases/download/v1.3.5/Aether-Nebula-Setup-1.3.5-arm64.exe) | 209 MB |
+| **Windows ARM64（便携版）** | [Aether-Nebula-v1.3.5-win-arm64-portable.zip](https://github.com/Aetherophas1c/aether-nebula/releases/download/v1.3.5/Aether-Nebula-v1.3.5-win-arm64-portable.zip) | 281 MB |
+| **macOS Apple Silicon (M1/M2/M3/M4)** | [Aether-Nebula-v1.3.5-macos-arm64.dmg](https://github.com/Aetherophas1c/aether-nebula/releases/download/v1.3.5/Aether-Nebula-v1.3.5-macos-arm64.dmg) | 275 MB |
+| **macOS Intel (`x86_64`)** | [Aether-Nebula-v1.3.5-macos-x86_64.dmg](https://github.com/Aetherophas1c/aether-nebula/releases/download/v1.3.5/Aether-Nebula-v1.3.5-macos-x86_64.dmg) | 291 MB |
+| **Linux x64（便携版）** | [Aether-Nebula-v1.3.5-linux-x64.tar.gz](https://github.com/Aetherophas1c/aether-nebula/releases/download/v1.3.5/Aether-Nebula-v1.3.5-linux-x64.tar.gz) | 386 MB |
+| **Linux ARM64（便携版）** | [Aether-Nebula-v1.3.5-linux-arm64.tar.gz](https://github.com/Aetherophas1c/aether-nebula/releases/download/v1.3.5/Aether-Nebula-v1.3.5-linux-arm64.tar.gz) | 471 MB |
+| **官方 Mod 归档 (`ai_login` v1.1.0)** | [nebula-mod-ai_login-v1.1.0.zip](https://github.com/Aetherophas1c/aether-nebula/releases/download/v1.3.5/nebula-mod-ai_login-v1.1.0.zip) | 31 KB |
+| **SHA-256 校验清单** | [SHA256SUMS.txt](https://github.com/Aetherophas1c/aether-nebula/releases/download/v1.3.5/SHA256SUMS.txt) | 934 B |
 
 ### 首次安装说明
 
-- **Windows**：直接运行 `Aether-Nebula-Setup-1.3.3-<arch>.exe`（自动检查 WebView2 运行时与防火墙防直连规则），或解压 `portable.zip` 运行 `Nebula.exe`。
+- **Windows**：直接运行 `Aether-Nebula-Setup-1.3.5-<arch>.exe`（自动检查 WebView2 运行时与防火墙防直连规则），或解压 `portable.zip` 运行 `Nebula.exe`。
 - **macOS**：将 `Aether Nebula.app` 拖入「应用程序（Applications）」。因应用采用本地 Ad-hoc 签名，首次打开若系统提示无法验证开发者，在「终端 (Terminal)」执行一次以下命令（无需密码，1 秒完成）：
   ```bash
   xattr -cr "/Applications/Aether Nebula.app"
@@ -35,7 +35,16 @@
 
 ---
 
-## v1.3.3 更新亮点
+## v1.3.5 更新亮点（跨平台指纹一致性全面加固）
+
+- **屏幕、DPR、CSS 媒体查询与 `Sec-CH-DPR` 请求头三端完全一致**：新增 Chromium 158 底层补丁 `016-screen-and-display-parity.patch`，在 Blink 原生层统一覆写 `window.screen`（含按伪装平台扣除系统任务栏/菜单栏后的 `availWidth/availHeight/availTop`、`colorDepth=24`、`isExtended=false`）、`outerWidth/outerHeight/screenX/screenY` 安全边界钳制、`window.devicePixelRatio`、`@media (device-width / device-height / resolution / color / color-gamut / dynamic-range / pointer / hover)`、HTTP `Sec-CH-DPR` / `DPR` Client Hints 以及同源 `iframe` 一致性；应用层同步持久化 `screen_resolution` 与 `device_scale_factor`（新建与订阅批量创建环境均自动按平台赋默认值 `1920x1080 / 1x` 或 `1440x900 / 2x`），消除跨机复制后 `hwid` 硬件编号跳变、Retina 缩放漂移及触屏/HDR 显示器泄漏。
+- **跨后端 WebGL 扩展白名单与参数对齐**：更新 `011-webgl-webgpu-gpu-parity.patch`，采用纯过滤裁剪模式（零伪造扩展，保证每个公布扩展 `getExtension()` 均真实可用）将桌面 WebGL1（32 项）与 WebGL2（Windows/Linux 26 项、macOS 25 项）扩展集合跨 ANGLE/D3D11/Metal/Vulkan/SwiftShader 对齐，剔除移动端/SwiftShader 纹理扩展（`astc`/`etc`/`pvrtc`），并统一 `UNIFORM_BUFFER_OFFSET_ALIGNMENT=256`、`MIN_PROGRAM_TEXEL_OFFSET=-8`、默认帧缓冲位深/采样数与 `MAX_COLOR_ATTACHMENTS_EXT=8`。
+- **Linux 端 WebGPU 全链路打通与软件适配清理**：`004` 补丁豁免 `--enable-unsafe-webgpu` 警示横幅，`011` 补丁清理 `GPUAdapterInfo` 软件驱动特征并将 `isFallbackAdapter` 规范化为 `false`；Linux 启动层在软件兜底时自动配置 Vulkan SwiftShader ICD 环境变量（不覆盖物理 `/dev/dri/renderD*` 硬件 GPU），确保 Linux 端完整支持 WebGPU 与一致的 GPU 信息。
+- **音频采样率统一 `48 kHz` 与 `rAF` 60Hz 零掉帧**：新增 `017-audio-sample-rate-parity.patch` 将未指定采样率的 `new AudioContext()` 统一经原生 WebAudio 重采样管线输出 `48000 Hz`（不影响显式 `{sampleRate}` 与 `OfflineAudioContext`），彻底消除宿主机声卡 `192 kHz / 44.1 kHz` 差异；升级 `013-refresh-rate-throttle.patch` 引入宿主机帧间隔 EMA 自适应检测，修复 60Hz 显示器目标 60Hz 时误掉帧抖动问题；导出/复制环境时自动冻结 `color_scheme='auto'` 为宿主机当前深浅色。
+- **字体地域误报修复与 `speechSynthesis` 跨系统/多语言语音完全隔离**：修复 `008` 字体白名单中 `PMingLiU` / `MingLiU-ExtB` 导致的 Linux 端 `syslang` 中国台湾误报；重构 `012-speech-synthesis-voices.patch`，彻底阻断 `linux` 平台及非英语语种（`zh`/`ja`/`ko`/`de`/`fr`/`es`/`it`/`pt`/`ru`）回退读取宿主机 TTS 语音导致的跨 OS 泄漏。
+
+### v1.3.3 更新内容
+
 
 - **离线浏览痕迹与书签生成器全面重构**：彻底消除书签栏单条目文件夹爆炸（按强度限制文件夹数并严禁创建少于 2 条的文件夹，增量追加亦控制书签栏顶层规模）；全量站点池新增自然短标题（`short_title`）避免书签/快捷方式截断，同时历史记录保持真实完整标题；修正文件夹与书签时间戳因果关系、与历史访问联动、`replace` 自动清理 `Bookmarks.bak`。
 - **NTP 快捷方式解耦、书签栏开关与多地区画像扩展**：`Default/Top Sites` 与 Chromium 158 NTP 偏好键仅随「新标签页快捷方式」独立生成；新增「常驻显示书签栏」与新建环境分项痕迹勾选；新增新加坡 (`sg`)、香港英文 (`hk`)、加拿大 (`ca`)、澳大利亚 (`au`) 及通用国际池 (`intl`)，非美地区不再误塞美国本土电商站；搜索词年份动态适配。
